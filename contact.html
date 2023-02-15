@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+      <title>CSH Health Care</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/all.css">
+ </head>
+  <body>
+      <section class="sub-header4">
+        <nav>
+           <a href="index.html"><img src="images/logo23.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-arrow-left" onclick="hideMenu()"></i>
+               <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT US</a></li>
+                  <li><a href="services.html">SERVICES</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                  <li><a href="contact.html">CONTACT US</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+      </section>
+
+<!---------------- Contact us -------------->
+
+<section class="location">
+     
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243208.17099333327!2d83.12250426152357!3d17.73862250347033!2m3!
+  1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39431389e6973f%3A0x92d9c20395498468!2sVisakhapatnam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1621336282670!5m2!1sen!2sin" 
+  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<section class="contact-us">
+
+     <div class="row">
+         <div class="contact-col">
+            <div>
+               <i class="fas fa-home"></i>
+               <span>
+                   <h5>Chenna Rushikonda 1st Lane,<br>Trends flora Apartments,<br>Flat No. 103, Beside GITAM Medical College,<br>Visakhapatnam, Andhra Pradesh.</h5>
+                   <p>Monday to Friday  10AM to 4PM</p>
+               </span>
+            </div>
+            <div>
+              <i class="fas fa-phone"></i>
+              <span>
+                  <h5>+91 XXXXX-XXXXX</h5>
+              </span>
+           </div>
+           <div>
+            <i class="fas fa-envelope"></i>
+            <span>
+                <h5>CSHhealthcare28@gmail.com</h5>
+                <p>E-mail us your Query.</p>
+            </span>
+         </div>
+         </div>
+         <div class="contact-col">
+
+            <form action="form-handler.php" method="POST">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter E-mail ID" required>
+                <input type="text" name="servicetype" placeholder="Type of Service Required" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-button red-button">Send Message</button>
+            </form> 
+
+            
+
+         </div>
+         
+        
+     </div>
+
+</section>
+
+         <div class="developer">
+            <h5>Developer Contact</h5>
+            <i class="fas fa-envelope"></i>
+            <span>
+                <h5>cheellasreeharsha2803@gmail.com</h5>
+                <p>E-mail to have an appointment.</p>
+            </span>
+         </div>
+
+
+<!---------------------Footer------------------------->
+
+<section class="footer">
+       <h4>About Us</h4>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quibusdam inventore dignissimos
+          nesciunt <br>sit facere similique ipsam ullam! Natus eius rerum iusto? Esse qu
+          as nostrum quibusdam rem unde obcaecati dolores.</p>
+        <div class="icons">
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <i class="fab fa-twitter"></i>
+          <!-- <a href="https://instagram.com/CSHhealthservices" target="_blank"><i class="fab fa-instagram"></i></a> -->
+          <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Copyright ©2023 Harsha. All rights Reserved.</p>
+        
+</section>
+
+
+  <!----------Java Script foe Toggling Menu in Mobile-------------> 
+   <script>
+ 
+      var navLinks = document.getElementById("navLinks");
+      
+      function showMenu(){
+           navLinks.style.right = "0";
+      }
+      function hideMenu(){
+           navLinks.style.right = "-200px";
+      }
+
+   </script>
+   
+  </body>
+</html>
